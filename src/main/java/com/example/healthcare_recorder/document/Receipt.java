@@ -24,8 +24,8 @@ public class Receipt {
 
     @Version
     private Long version;
-    @Field(name = "recorder_id")
-    private String recorderId;
+    @Field(name = "patient_id")
+    private String patientId;
     @Field(name = "doctor_id")
     private String doctorId;
     @Field(name = "reason")
